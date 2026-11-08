@@ -1,157 +1,146 @@
-# Awesome-Workflow-Automation-Business-Process-Management
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Workflow Automation & Business Process Management" width="100%">
+</p>
 
-# Awesome Workflow Automation & Business Process Management
+# ⚡ Awesome Workflow Automation & Business Process Management (BPM)
 
-> A curated list of top Workflow Automation and Business Process Management (BPM) platforms — both SaaS/Hosted commercial solutions and open-source alternatives for process modeling, execution, and automation.  
-> 🌟 Star this repo if you find it useful! 🌟
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Workflow-Automation-Business-Process-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Workflow-Automation-Business-Process-Management?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Workflow-Automation-Business-Process-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Workflow-Automation-Business-Process-Management?style=social" alt="GitHub Forks" /></a>
+  <a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0-1.0" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
----
-
-## 📋 Table of Contents
-
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Zoho Flow](#zoho-flow)
-  - [Zapier](#zapier)
-  - [Make](#make)
-  - [Workato](#workato)
-  - [Nintex](#nintex)
-  - [ProcessMaker](#processmaker)
-  - [Kissflow](#kissflow)
-  - [Camunda 8](#camunda-8)
-  - [Pipefy](#pipefy)
-  - [Appian](#appian)
-- [Open-Source Software](#-open-source-software)
-  - [Flowable](#flowable)
-  - [CIB seven](#cib-seven)
-  - [Operaton](#operaton)
-  - [Apache jBPM (Apache KIE)](#apache-jbpm-apache-kie)
-  - [m8flow](#m8flow)
-  - [Bonita](#bonita)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+> 🌟 **A curated, battle-tested list of leading Workflow Automation and Business Process Management (BPM) platforms.** Explore top-tier cloud SaaS solutions, resilient open-source BPMN 2.0 engines, iPaaS connectors, and modern AI agent orchestrators designed for process modeling, automated execution, and enterprise digital transformation.
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 📑 Table of Contents
 
-Commercial, cloud-hosted Workflow Automation and BPM platforms. These are not open-source but are included as reference points for feature comparison.
-
-### Zoho Flow
-**Type:** No-code integration and workflow automation  
-Zoho Flow connects 850+ applications with drag-and-drop workflow building, decision branches, custom variables, sub-flows, and outgoing webhooks [citation:12]. The 2026 release added Zia AI capabilities: natural language workflow creation, content generation/cleaning utilities, and agentic actions that can make context-based decisions during execution [citation:4]. Integrated within the broader Zoho ecosystem, making it accessible for organizations already using Zoho products.  
-**Best for:** Teams in or near the Zoho ecosystem wanting no-code automation with emerging AI-assisted workflow capabilities.
-
-### Zapier
-**Type:** General-purpose automation platform  
-Zapier connects 7,000+ apps with trigger-action workflows. Supports scheduled and webhook triggers, filters, and multi-step Zaps. The most widely adopted automation platform for non-technical users, with a massive integration library. Lacks native BPMN process modeling or human task management.
-
-### Make
-**Type:** Visual automation platform  
-Make provides visual scenario building with scheduling, webhooks, and branching logic. Supports complex error handling and data transformation. Positioned between Zapier's simplicity and enterprise iPaaS complexity.
-
-### Workato
-**Type:** Enterprise automation with recipe-based workflows  
-Workato provides enterprise-grade automation with recipes, triggers, and actions across 1,000+ connectors. Supports conditional logic, error handling, and approval workflows. Often used for cross-functional business processes in enterprise environments.
-
-### Nintex
-**Type:** Process automation and workflow platform  
-Nintex offers workflow automation with forms, document generation, and process intelligence. Includes approval workflows with escalation and time-based reminders. Strong heritage in SharePoint-based workflows with cloud-native expansion.
-
-### ProcessMaker
-**Type:** BPM and workflow automation  
-ProcessMaker is a low-code BPM platform with workflow design, form building, and process orchestration. Available as both cloud and self-hosted options. Focused on business-user-friendly process automation.
-
-### Kissflow
-**Type:** No-code workflow automation  
-Kissflow provides no-code workflow and process automation with pre-built templates for approvals, procurement, and HR processes. Focused on simplicity for business users without technical backgrounds.
-
-### Camunda 8
-**Type:** Enterprise BPM with distributed orchestration  
-Camunda 8 (built on the Zeebe engine) is a cloud-native platform designed for distributed service orchestration with horizontal scalability . Uses BPMN for process modeling with external workers for multi-language execution. **Key distinction:** Camunda 8 is not an upgrade from Camunda 7 — it is a different architecture requiring migration effort [citation:3]. The commercial platform has licensing costs for self-managed production deployments [citation:2].  
-**Best for:** Organizations needing high-throughput, distributed service orchestration across microservices.
-
-### Pipefy
-**Type:** Workflow management with process templates  
-Pipefy provides process management with pre-built workflow templates, SLA tracking, due date enforcement, and automated escalation. Focused on operations and service delivery workflows with a visual Kanban-style interface.
-
-### Appian
-**Type:** Low-code automation with process orchestration  
-Appian's low-code platform includes workflow automation, process orchestration, and case management. Supports complex approval chains and process modeling with audit trails. Often used in regulated industries requiring compliance controls.
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Commercial Platforms](#️-saas--hosted-commercial-platforms)
+- [🔓 Open-Source Workflow & BPM Software](#-open-source-workflow--bpm-software)
+- [📊 Feature Matrix & Comparison at a Glance](#-feature-matrix--comparison-at-a-glance)
+- [📈 Star History](#-star-history)
+- [🤝 Contributing](#-contributing)
+- [☕ Support](#-support)
+- [📄 License](#-license)
 
 ---
 
-## 🟩 Open-Source Software
+## 🌐 Sector Overview & Market Dynamics
 
-Self-hosted, community-driven Workflow Automation and BPM platforms. All listed projects offer source code you can deploy on your own infrastructure.
+The global **Workflow Automation and Business Process Management (BPM)** market is currently valued at approximately **$24B–$27B (2025–2026)** and is projected to surpass **$50B by 2030**, advancing at a robust compound annual growth rate (CAGR) of 10%–12%. 
 
-### Flowable
-**Stack:** Java | **License:** Apache 2.0  
-A modern BPMN engine forked from Activiti, offering separate embeddable engines for BPMN 2.0, CMMN (case management), and DMN (decision management) [citation:9]. Clean modular architecture with Spring Boot starter, Docker/Kubernetes support, and a comprehensive REST API. The Flowable Modeler provides web-based modeling for BPMN, CMMN, DMN, and forms [citation:9]. **Trade-off:** Enterprise features like the Flowable Work UI require a commercial license; documentation for the modeler can be sparse [citation:9].  
-**Best for:** Java development teams building cloud-native applications needing BPMN, case management, and decision logic in a single lightweight stack [citation:9]. For 90% of enterprise OA and approval scenarios, Flowable is considered sufficient and stable .
-
-### CIB seven
-**Stack:** Java | **License:** Apache 2.0  
-A fork of Camunda Platform 7 created to provide a long-term open-source alternative after Camunda discontinued support for the Community Edition [citation:1]. 100% compatible with Camunda 7 — existing applications continue to operate without code changes as a drop-in replacement [citation:1]. Includes the core engine for BPMN, DMN, and CMMN, plus web applications for administration (Admin), task management (Tasklist), and operational monitoring (Cockpit) [citation:1][citation:5]. Fully on-premises deployable with Docker images and Helm charts available [citation:1].  
-**Best for:** Organizations with existing Camunda 7 deployments seeking long-term open-source maintenance without migration to Camunda 8.
-
-### Operaton
-**Stack:** Java | **License:** Apache 2.0  
-A community-driven fork of Camunda 7, positioned as a truly open-source BPM platform with no open-core model or single-vendor control [citation:10]. Evolved from the proven Camunda 7 codebase with over a decade of production use. Includes the process engine, REST API, and web apps (Cockpit, Tasklist, Admin). Supports H2, PostgreSQL, MySQL, MariaDB, Oracle, SQL Server, and DB2 [citation:10]. Offers an MCP server for AI integration and Keycloak plugin for identity management. Migration from Camunda 7 is supported via an OpenRewrite migration tool [citation:10].  
-**Best for:** Organizations wanting Camunda 7 compatibility with community-driven governance and no vendor lock-in.
-
-### Apache jBPM (Apache KIE)
-**Stack:** Java | **License:** Apache 2.0  
-Part of the Apache KIE (Knowledge Is Everything) project, combining jBPM/Kogito with Drools for business rules and DMN decisions [citation:2]. Supports BPMN process modeling with tight integration between processes and business rules. Backed by Red Hat and integrated with the JBoss/WildFly ecosystem. **Consideration:** jBPM 7 to 10 migration requires significant reimplementation; commercial support for jBPM 7 ends in 2027 [citation:11]. Configuration is complex with a steeper learning curve .  
-**Best for:** Organizations in the Red Hat/JBoss ecosystem needing tight integration between BPMN processes and Drools business rules.
-
-### m8flow
-**Stack:** Python (SpiffWorkflow foundation) | **License:** Open Source  
-A multi-tenant workflow orchestration platform implemented in Python, built on SpiffWorkflow [citation:6]. Supports BPMN 2.0 (pools, lanes, multi-instance tasks, sub-processes, timers, signals, messages, boundary events, loops) and DMN baseline implementation. Python-native workflows can run via Python code or JSON structures. Docker-based deployment with Keycloak, PostgreSQL, MinIO, Redis, and NATS components [citation:6]. Positioned as a modern Python-based alternative to Java-centric platforms like Camunda 7.  
-**Best for:** Python-centric teams wanting a BPMN engine without adopting a Java stack.
-
-### Bonita
-**Stack:** Java | **License:** GPL-2.0 (Community)  
-A complete BPM/DPA platform combining an engine, Studio (modeling), UI (task portal), and Runtime [citation:2]. Handles case management through its own patterns rather than the CMMN standard [citation:9]. The Community edition provides core BPM capabilities; commercial subscription adds support and advanced features.  
-**Best for:** Business analysts wanting a complete, integrated BPM platform with a visual studio and task portal.
+Structurally, the market is **moderately fragmented**: enterprise platform giants (e.g., ServiceNow, Appian, Pegasystems, Microsoft Power Automate, and UiPath) hold high-value market share across mission-critical core architectures, while a dynamic, fast-expanding long-tail of innovative iPaaS startups, open-source orchestration engines, and AI-native automation platforms prevent a winner-take-all monopoly and provide diverse tooling options across the ecosystem.
 
 ---
 
-## 📊 Comparison at a Glance
+## ☁️ SaaS & Hosted Commercial Platforms
 
-| Software | License | Stack | BPMN | Human Tasks | Self-Hosted | Best For |
-|----------|---------|-------|------|-------------|-------------|----------|
-| **Zoho Flow** | Proprietary | Cloud | ❌ | ❌ | ❌ | Zoho ecosystem no-code automation |
-| **Zapier** | Proprietary | Cloud | ❌ | ❌ | ❌ | General app-to-app automation |
-| **Make** | Proprietary | Cloud | ❌ | ❌ | ❌ | Visual automation scenarios |
-| **Workato** | Proprietary | Cloud | ❌ | Limited | ❌ | Enterprise recipe automation |
-| **ProcessMaker** | Proprietary | Cloud | ✅ | ✅ | ✅ (core) | Low-code BPM |
-| **Camunda 8** | Proprietary | Java/Zeebe | ✅ | ✅ | ✅ | Distributed orchestration |
-| **Flowable** | Apache 2.0 | Java | ✅ | ✅ | ✅ | Java BPMN + CMMN + DMN |
-| **CIB seven** | Apache 2.0 | Java | ✅ | ✅ | ✅ | Camunda 7 long-term OSS |
-| **Operaton** | Apache 2.0 | Java | ✅ | ✅ | ✅ | Community Camunda 7 fork |
-| **Apache jBPM** | Apache 2.0 | Java | ✅ | ✅ | ✅ | BPMN + Drools rules |
-| **m8flow** | Open Source | Python | ✅ | ✅ | ✅ | Python BPMN engine |
-| **Bonita** | GPL-2.0 | Java | ✅ | ✅ | ✅ | Complete BPM studio platform |
+A comprehensive comparison of leading hosted enterprise platforms, sorted in descending order by enterprise valuation and scale.
+
+| Platform | Company Valuation / Revenue | Starting Price (Paid Tier) | Free Forever Tier Limit / Free Trial Limit | Core Architecture & Key Strength |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Zoho Flow](https://www.zoho.com/flow/)** | **~$12.5B Valuation** (~$1.5B Revenue) | **$25/month** (Standard plan billed annually, or $29/mo monthly) | **Free Forever:** 5 active flows, 100 tasks/month, 15-minute polling interval | Cloud-native no-code integration platform deeply embedded in the Zoho suite with Zia AI natural language automation. |
+| **[Workato](https://www.workato.com/)** | **~$5.7B Valuation** (~$150M ARR) | **$75/month** (Base self-service Pro; Enterprise plans custom quoted) | **Free Plan:** One-time 50,000 non-renewing credits for prototyping and testing | Enterprise-grade iPaaS with 1,000+ connectors, reusable recipes, governance controls, and AI agent execution. |
+| **[Zapier](https://www.zapier.com/)** | **~$5.0B Valuation** (~$310M+ ARR) | **$19.99/month** (Professional tier billed annually, or $29.99/mo monthly) | **Free Forever:** 100 tasks/month, 2-step Zaps only (1 trigger, 1 action), 15-min check interval | World's largest third-party connector ecosystem connecting 7,000+ cloud applications with trigger-action pipelines. |
+| **[Appian](https://appian.com/)** | **~$3.6B Market Cap** (~$600M Revenue) | **$75/user/month** (Standard commercial tier; enterprise custom quote) | **Free Forever:** Appian Community Edition (personal dedicated environment for prototyping & training) | Enterprise low-code process orchestration suite with complete BPMN standards, data fabric, and compliance auditing. |
+| **[Nintex](https://www.nintex.com/)** | **~$2.0B Valuation** (~$250M ARR) | **~$25,000/year** (Enterprise platform packages; direct vendor quote) | **30-Day Free Trial:** Full platform access to Nintex Workflow, forms, and Process Manager (no credit card) | Enterprise workflow automation, document generation, and process mapping with deep SharePoint and cloud integrations. |
+| **[Camunda 8](https://camunda.com/)** | **~$1.0B+ Valuation** (~$150M–$200M ARR) | **$49/month** (Professional Starter tier; Enterprise custom consumption quotes) | **Free Forever:** Web Modeler (BPMN/DMN modeling with 5 seats) + **30-Day Free Trial** for cloud process execution | High-throughput distributed microservice orchestration engine (Zeebe) with external workers and BPMN 2.0 standards. |
+| **[Make](https://www.make.com/)** | **Subsidiary of Celonis** ($13B Parent Valuation; ~$60M ARR) | **$9/month** (Core plan billed annually, or $10.59/mo monthly) | **Free Forever:** 1,000 credits/month, 2 active scenarios, 5 MB file size limit, 15-min interval | Visual drag-and-drop workflow canvas supporting complex branching logic, arrays, and detailed data manipulation. |
+| **[Kissflow](https://kissflow.com/)** | **~$250M Valuation** (~$40M–$50M ARR) | **$1,500/month** (Basic tier starting bundle; Enterprise custom quote) | **14-Day Free Trial:** Guided evaluation and sandbox access provisioned following product demo | Human-centric no-code digital workplace for approval chains, procurement routing, and internal business apps. |
+| **[Pipefy](https://www.pipefy.com/)** | **~$150M Valuation** (~$70M ARR) | **$20/user/month** (Business tier billed annually, or $26/mo monthly) | **Free Forever (Starter):** Up to 10 users, 5 active pipes (processes), 15 automations, 20 API calls | Kanban-style visual process management platform optimized for customer onboarding, HR service desks, and procurement. |
+| **[ProcessMaker](https://www.processmaker.com/)** | **~$100M Valuation** (~$35M ARR) | **$1,495/month** (Standard package; scale-up consumption tiers available) | **Free Trial:** Custom 14-to-30 day Proof-of-Concept environment provided upon demo request | Low-code BPM platform offering visual diagramming, form designers, and SLA compliance monitoring. |
+
+---
+
+## 🔓 Open-Source Workflow & BPM Software
+
+Self-hosted, transparent, and community-driven Workflow Automation engines and BPMN platforms. All repositories are sorted in descending order by GitHub stargazers.
+
+| Project & Repository | Star Count | License | Stack | Architecture & Key Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[n8n](https://github.com/n8n-io/n8n)** | [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) | Sustainable Core (Fair-Code) | TypeScript / Node.js | Visual node-based workflow builder with 400+ native integrations, custom JavaScript/Python execution nodes, advanced AI agent blocks, and self-hosted privacy. |
+| **[Huginn](https://github.com/huginn/huginn)** | [![GitHub stars](https://img.shields.io/github/stars/huginn/huginn?style=social&color=white)](https://github.com/huginn/huginn/stargazers) | MIT | Ruby | A hackable open-source system for building automated agents that scan websites, parse data, trigger webhooks, and perform automated actions on your behalf. |
+| **[Kestra](https://github.com/kestra-io/kestra)** | [![GitHub stars](https://img.shields.io/github/stars/kestra-io/kestra?style=social&color=white)](https://github.com/kestra-io/kestra/stargazers) | Apache 2.0 | Java / Vue | Infinitely scalable, declarative YAML-driven workflow orchestrator for data pipelines, business operations, microservices, and AI workflows. |
+| **[Activepieces](https://github.com/activepieces/activepieces)** | [![GitHub stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers) | MIT / Fair-Code | TypeScript / Node.js | Modern, self-hostable Zapier alternative equipped with an extensive library of open-source "pieces", native MCP server protocols, and AI agent connectors. |
+| **[Temporal](https://github.com/temporalio/temporal)** | [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers) | MIT | Go | Durable execution platform ensuring that stateful code and business workflows run to completion despite network partitions, hardware failures, and long delays. |
+| **[Node-RED](https://github.com/node-red/node-red)** | [![GitHub stars](https://img.shields.io/github/stars/node-red/node-red?style=social&color=white)](https://github.com/node-red/node-red/stargazers) | Apache 2.0 | JavaScript / Node.js | Low-code event-driven programming platform for wiring together hardware devices, APIs, webhooks, and enterprise online services via a browser-based canvas. |
+| **[Automatisch](https://github.com/automatisch/automatisch)** | [![GitHub stars](https://img.shields.io/github/stars/automatisch/automatisch?style=social&color=white)](https://github.com/automatisch/automatisch/stargazers) | AGPL-3.0 | JavaScript / React | Private, self-hosted workflow automation tool built as an open Zapier alternative with strict GDPR compliance and zero cloud data leaks. |
+| **[Activiti](https://github.com/Activiti/Activiti)** | [![GitHub stars](https://img.shields.io/github/stars/Activiti/Activiti?style=social&color=white)](https://github.com/Activiti/Activiti/stargazers) | Apache 2.0 | Java | Battle-tested, lightweight BPMN 2.0 process engine designed for high-performance Java applications, microservice architectures, and Spring Cloud environments. |
+| **[Flowable](https://github.com/flowable/flowable-engine)** | [![GitHub stars](https://img.shields.io/github/stars/flowable/flowable-engine?style=social&color=white)](https://github.com/flowable/flowable-engine/stargazers) | Apache 2.0 | Java / Spring Boot | High-performance enterprise workflow engine natively implementing BPMN 2.0 (processes), CMMN 1.1 (cases), and DMN 1.2 (business rules) with embeddable runtime engines. |
+| **[SpiffWorkflow](https://github.com/sartography/SpiffWorkflow)** | [![GitHub stars](https://img.shields.io/github/stars/sartography/SpiffWorkflow?style=social&color=white)](https://github.com/sartography/SpiffWorkflow/stargazers) | LGPL-3.0 | Python | Pure Python workflow engine supporting BPMN 2.0 and DMN specifications with Python scripts, JSON task schemas, and web diagramming integrations. |
+| **[Apache jBPM](https://github.com/kiegroup/jbpm)** | [![GitHub stars](https://img.shields.io/github/stars/kiegroup/jbpm?style=social&color=white)](https://github.com/kiegroup/jbpm/stargazers) | Apache 2.0 | Java / KIE | Red Hat-backed enterprise business automation suite integrating BPMN process management with Drools business rules engines and Complex Event Processing (CEP). |
+| **[Operaton](https://github.com/operaton/operaton)** | [![GitHub stars](https://img.shields.io/github/stars/operaton/operaton?style=social&color=white)](https://github.com/operaton/operaton/stargazers) | Apache 2.0 | Java | Community-governed open-source fork of Camunda 7 featuring Cockpit, Tasklist, Admin webapps, Keycloak integration, and Model Context Protocol (MCP) servers. |
+| **[Bonita Engine](https://github.com/bonitasoft/bonita-engine)** | [![GitHub stars](https://img.shields.io/github/stars/bonitasoft/bonita-engine?style=social&color=white)](https://github.com/bonitasoft/bonita-engine/stargazers) | LGPL-2.1 | Java | Comprehensive digital process automation runtime providing process execution, user portal forms, document attachments, and application page design. |
+| **[CIB seven](https://github.com/cibseven/cibseven)** | [![GitHub stars](https://img.shields.io/github/stars/cibseven/cibseven?style=social&color=white)](https://github.com/cibseven/cibseven/stargazers) | Apache 2.0 | Java | Full drop-in open-source replacement for Camunda 7 offering continuous enterprise-ready updates, security patches, Docker images, and Helm charts. |
+
+---
+
+## 📊 Feature Matrix & Comparison at a Glance
+
+| Tool / Platform | Category | Primary Tech Stack | BPMN 2.0 Compliant | Human Task Management | Self-Hosted Option | Best Target Use Case |
+| :--- | :--- | :--- | :---: | :---: | :---: | :--- |
+| **Zoho Flow** | SaaS / iPaaS | Cloud | ❌ | ❌ | ❌ | Teams embedded in the Zoho ecosystem wanting no-code integration |
+| **Workato** | Enterprise iPaaS | Cloud | ❌ | Limited | ❌ | Enterprise-grade cross-application workflow recipes and governance |
+| **Zapier** | SaaS iPaaS | Cloud | ❌ | ❌ | ❌ | Universal app-to-app triggers across 7,000+ third-party tools |
+| **Appian** | Low-Code BPM | Cloud / Java | ✅ | ✅ | Limited | Highly regulated corporate operations requiring complete auditing & case management |
+| **Nintex** | Enterprise Automation | Cloud / .NET | ❌ | ✅ | ✅ | Microsoft SharePoint workflows, automated forms, and document workflows |
+| **Camunda 8** | Process Orchestration | Cloud / Zeebe / Java | ✅ | ✅ | ✅ (Non-prod) | High-throughput distributed microservice orchestration |
+| **Make** | Visual iPaaS | Cloud | ❌ | ❌ | ❌ | Complex visual pipelines with nested JSON data manipulations |
+| **Kissflow** | Digital Workplace | Cloud | ❌ | ✅ | ❌ | Non-technical business department workflow requests and internal forms |
+| **Pipefy** | Process Kanban | Cloud | ❌ | ✅ | ❌ | Operations teams tracking approval tickets, hiring, and procurement |
+| **ProcessMaker** | Low-Code BPM | Cloud / PHP / Docker | ✅ | ✅ | ✅ | Streamlined form-driven business process automation |
+| **n8n** | Open-Source Automation | TypeScript / Node.js | ❌ | ✅ | ✅ | Self-hosted integration workflows, webhooks, and AI agent loops |
+| **Huginn** | Open-Source Agent | Ruby | ❌ | ❌ | ✅ | Personal web scraping, alert dispatching, and automated online tasks |
+| **Kestra** | Declarative Orchestration | Java / YAML | ❌ | ✅ | ✅ | Enterprise data pipelines, DevOps automation, and multi-cloud scripts |
+| **Activepieces** | Open-Source Automation | TypeScript / Node.js | ❌ | ❌ | ✅ | Privacy-first open Zapier alternative with modern AI/MCP connectors |
+| **Temporal** | Durable Orchestration | Go | ❌ | ❌ | ✅ | Mission-critical code-as-workflow execution and distributed transactions |
+| **Node-RED** | Visual Flow Builder | JavaScript / Node.js | ❌ | ❌ | ✅ | IoT device control, MQTT event handling, and quick API webhooks |
+| **Automatisch** | Open-Source Automation | JavaScript / Node.js | ❌ | ❌ | ✅ | Privacy-focused trigger/action automations without third-party vendor tracking |
+| **Activiti** | Open-Source BPMN | Java / Spring Boot | ✅ | ✅ | ✅ | Embeddable BPMN workflows within custom Java enterprise microservices |
+| **Flowable** | Open-Source BPMN | Java / Spring Boot | ✅ | ✅ | ✅ | Unified BPMN processes, CMMN cases, and DMN decision engines |
+| **SpiffWorkflow** | Open-Source BPMN | Python | ✅ | ✅ | ✅ | Python-native data science and backend workflows using standard BPMN 2.0 |
+| **Apache jBPM** | Open-Source BPM | Java / KIE | ✅ | ✅ | ✅ | Red Hat ecosystem workflows with Drools business rule engines |
+| **Operaton** | Open-Source BPMN | Java | ✅ | ✅ | ✅ | Community-governed Camunda 7 alternative with zero vendor licensing fees |
+| **Bonita** | Open-Source BPM | Java | ✅ | ✅ | ✅ | End-to-end business applications combining process runtime and UI portal |
+| **CIB seven** | Open-Source BPMN | Java | ✅ | ✅ | ✅ | Direct 1:1 drop-in replacement for existing Camunda 7 production clusters |
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Workflow-Automation-Business-Process-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Workflow-Automation-Business-Process-Management&type=date&legend=top-left)
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Workflow Automation or BPM platform that should be listed here, please open a pull request with:
+Contributions, additions, and updates are warmly welcomed! Please help maintain this list as the premier workflow automation reference:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+1. 🍴 Fork the repository.
+2. 🌿 Create a descriptive branch (`git checkout -b feature/add-new-platform`).
+3. 📝 Add your recommended platform under the respective category in alphabetical or categorized order.
+4. 🚀 Ensure the tool is actively maintained with valid links, licenses, and clear descriptions.
+5. 📬 Submit a Pull Request with a short explanation of why the tool adds value to the community.
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source BPM ecosystem is Java-heavy; Python and other language options are emerging but limited.
+Explore more curated lists across the developer ecosystem at **[Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)**.
+
+---
+
+## ☕ Support
+
+If you found this curated list helpful, please consider showing your support:
+- ⭐ **Star this repository** to help others discover it on GitHub.
+- 🍴 **Fork it** to bookmark and customize it for your team.
+- 📢 **Share it** with fellow software architects, DevOps engineers, and automation enthusiasts.
+- 💖 **Sponsor the Maintainer:** Consider buying a coffee or providing financial sponsorship via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This repository is licensed under the [Creative Commons Zero v1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/) public domain dedication. Listed products, services, trademarks, and source codes belong to their respective creators and owners.
